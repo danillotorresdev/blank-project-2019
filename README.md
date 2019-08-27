@@ -1,3 +1,7 @@
+
+## Atualizar a versão do React deste repositório de 6 em 6 mêses
+Ultima atualização: 27/08/2019
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
