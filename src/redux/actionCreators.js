@@ -4,9 +4,9 @@ export const {
   Types,
   Creators,
 } = createActions({
-  getUsersRequest: null,
-  getUsersSuccess: ['users'],
-  getUsersFailure: null,
+  getProductsRequest: null,
+  getProductsSuccess: ['products'],
+  getProductsFailure: null,
 });
 
 export default Creators;

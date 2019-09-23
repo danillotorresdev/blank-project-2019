@@ -1,9 +1,9 @@
 import { takeLatest, all } from 'redux-saga/effects';
 import { Types } from '../actionCreators';
-import { getUsers } from './users';
+import { getProducts } from './products';
 
 export default function* rootSaga() {
   yield all([
-    takeLatest(Types.GET_BREEDS_REQUEST, getUsers),
+    takeLatest(Types.GET_PRODUCTS_REQUEST, getProducts),
   ]);
 }
